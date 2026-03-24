@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarim diario</title>
+</head>
+
+<style>
+    .container{
+        display: flex;
+    }
+    .leftColumn{
+        
+        position: relative;
+        
+    }
+    #spider-man{
+        width: 1100px;
+        height: 700px;
+        margin: 0px;
+    }
+    .rightColumn{
+        margin-left: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;    
+    }
+    hr{
+        border: none;
+        background-color: black;
+        height: 4px;
+        margin: 10px 0;
+    }
+    #main {
+    width: 100%;
+    background: linear-gradient(to bottom, #ff1a1a, #cc0000);
+    color: white;
+    display: flex;
+    justify-content: flex-end; /* joga o texto pra direita */
+    align-items: center;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    }   
+
+    #main h1{
+        margin: 0;
+    }
+
+    #main hr{
+        display: none;
+    }
+   
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    #mainNew{
+        margin-top: 10px;
+    }
+    .news{
+        margin-top: 20px;
+    }
+    .news h2{
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+
+    body{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+</style>
+<body>
+
+    <div id="main">
+        <h1>Latest News</h1>
+        <hr>
+    </div>
+
+    <div class="container">
+        <div class="leftColumn">
+            <img id="spider-man" src="https://pbs.twimg.com/media/HDuf0FOXIAAlxpa?format=jpg&name=4096x4096" alt="spider-man Cover">
+
+            <h1 id="mainNew">Boomerang’s Rampage Ends in Midtown Chaos — Spider-Man Intervenes</h1>
+        </div>
+
+        <div class="rightColumn">
+            <div class="news">
+                <h2><a href="">Citizens Speak Out After Scorpion Clash in Queens</a></h2>
+                <h2><a href="">Midtown Office Workers Describe Tombstone Showdown</a></h2>
+                <h2><a href="">Kingpin Suspected in Coordinated Criminal Activity</a></h2>
+                <h2><a href="">Daily Life Disrupted as Fear Spreads Across Neighborhoods</a></h2>
+            </div>
+        </div>
+    </div>
+
+
+</html>
